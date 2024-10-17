@@ -1,0 +1,896 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+  body {
+    background-color: #f8f7f3;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /*HR DOUBLE*/
+  hr {
+    border-top: 8px double #8c8b8b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /*NAVIGASI*/
+  nav {
+    justify-content: center;
+    position: fixed;
+    bottom: -5vh;
+    display: flex;
+    width: 100%;
+  }
+  
+  nav ul {
+    padding: 2%;
+    margin: 5px;
+    background-color: #696969;
+    border-radius: 35px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+  }
+  
+  nav ul li:hover {
+    background-color: #8c8b8b;
+    border-radius: 18px;
+    padding: 8px 13px;
+    transition: ease-in-out 200ms;
+  }
+  
+  #ctrlmusic {
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5vh;
+    border-radius: 50px;
+  }
+  
+  #imgmusic {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #content-invitation {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .txt-primary {
+    font-family: "Marcellus", serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+  }
+  
+  .txt-secondary {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+  }
+  
+  .txt-third {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .title {
+    margin-top: 0.3rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Times New Roman", Times, serif;
+    color: #696969;
+  }
+  
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 0px 15px;
+    height: 30px;
+    background-color: #696969;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  #page1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bride-groom-foto {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 68%;
+    height: 495px;
+    padding: 5px;
+    border: 3px, solid, #696969;
+  }
+  
+  #txt1-cover,
+  #txt2-cover {
+    color: #696969;
+    text-align: justify;
+    width: 100%;
+    position: relative;
+    word-spacing: 10px;
+  }
+  
+  #txt1-cover {
+    margin-top: 20px;
+  }
+  
+  #txt2-cover {
+    font-size: 4.2rem;
+    line-height: 0.9;
+  }
+  
+  #quotes {
+    font-size: 1.05rem;
+    padding: 30px 10px 0px 10px;
+    margin-top: -6%;
+    width: 330px;
+    height: 125px;
+    line-height: 1.3;
+    color: white;
+    text-align: center;
+    position: relative;
+    background-color: #696969;
+    border: 4px, solid, #b2beb5;
+  }
+  
+  #page2-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .vl {
+    border-left: 6px solid #696969;
+    height: 635px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #prayer-page2 {
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    background-color: #696969;
+    border: 4px, solid, #b2beb5;
+    width: 90%;
+    position: relative;
+    padding: 50px 20px 0px 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+  
+  .profile-icon {
+    padding: 5px;
+    border: 3px, solid, #696969;
+    width: 250px;
+    height: 250px;
+    display: block;
+  }
+  
+  .text-profile {
+    text-align: center;
+  }
+  
+  #profile-name {
+    font-weight: 400;
+    color: #8c8b8b;
+    font-size: 2.8rem;
+  }
+  
+  #line-profile {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-top: 3px solid #8c8b8b;
+  }
+  
+  .child-of {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #8c8b8b;
+  }
+  
+  .parents {
+    font-size: 1.5rem;
+    color: #8c8b8b;
+    margin-bottom: 15px;
+  }
+  
+  .sosmed {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .sosmed button {
+    border: 0;
+    background-color: #f8f7f3;
+  }
+
+  .page3-container {
+    display: flex;
+  }
+  
+  #countdown-container {
+    margin-top: -10px;
+  }
+  
+  .countdown {
+    display: flex;
+  }
+  
+  .kotak-timer {
+    margin: 10px 10px 0px 0px;
+    width: 120px;
+    height: 120px;
+    background-color: #696969;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 30px;
+  }
+  
+  #day,
+  #hour,
+  #minute,
+  #second {
+    font-family: lato, sans-serif;
+    font-size: 3rem;
+  }
+  
+  #vl-short {
+    height: 400px;
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+  
+  #lineee {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 2px, solid, #b2beb5;
+  }
+  
+  .date-loc iframe {
+    border-radius: 20px;
+    border-style: dashed;
+    width: 150%;
+    height: 320px;
+  }
+  
+  .container-loc {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .loc {
+    background-color: #696969;
+    text-align: center;
+    border: 4px, solid, #b2beb5;
+    color: white;
+    font-size: 1rem;
+    width: 80%;
+    margin-left: 25px;
+    margin-right: -295px;
+    padding-bottom: 8px;
+  }
+  
+  #desc p {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: lato, sans-serif;
+    font-size: 1rem;
+  }
+  
+  .wedding-timeline {
+    text-align: center;
+    border: 2px, solid, #8c8b8b;
+    padding: 6px;
+  }
+  
+  #line-timeline {
+    margin-left: 90px;
+    margin-right: 90px;
+    width: 1070px;
+    border: 2px, solid, #8c8b8b;
+    text-align: center;
+  }
+  
+  .top,
+  .bottom {
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  video {
+    height: 380px;
+    width: 100%;
+    border: 4px, solid, #8c8b8b;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .our-story-vid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ourstory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img-box {
+    width: 60px;
+    height: 260px;
+    margin: 5px;
+    border-radius: 50px;
+    background: url(Assets/Images/our-story1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.5s;
+    border: 3px, solid, #696969;
+  }
+  
+  .img-box:nth-child(2) {
+    background: url(Assets/Images/our-story2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .img-box:nth-child(3) {
+    background: url(Assets/Images/our-story4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .img-box:nth-child(4) {
+    background: url(Assets/Images/our-story3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .img-box h3 {
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+  }
+  
+  .img-box:hover {
+    width: 300px;
+    cursor: pointer;
+  }
+  
+  .img-box:hover h3 {
+    opacity: 1;
+    bottom: 25px;
+  }
+  
+  #galery {
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  .slider {
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  .slide-track {
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
+  }
+  
+  .slide-track:hover {
+    animation-play-state: paused;
+    transform: translateZ (20px);
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 9));
+    }
+  }
+  
+  .slide {
+    height: 190px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    margin-left: 20px;
+  }
+  
+  .photo {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    border: 4px, solid, #8c8b8b;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .photo:hover {
+    transform: scale(1.2);
+  }
+  
+  .slider::before,
+  .slider::after {
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    content: "";
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ (180deg);
+  }
+  /PAGE 6/
+  .page6-container {
+    display: flex;
+  }
+  
+  #txt1-page6 {
+    font-size: 2.5rem;
+    line-height: 0.9;
+    color: white;
+    background-color: #696969;
+    width: 93%;
+    padding: 20px;
+    text-align: center;
+    border: 4px, solid, #b2beb5;
+  }
+  
+  #txt2-page6 {
+    font-size: 2.5rem;
+    color: #696969;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  #form-rsvp-message {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  
+  .RSVP,
+  .message {
+    border: 3px, solid, #696969;
+    margin-top: 20px;
+    margin-right: 1%;
+    text-align: left;
+    color: #696969;
+    font-size: 1.3rem;
+    width: 400px;
+    padding-left: 20px;
+  }
+  
+  #table-menu,
+  table {
+    width: 100%;
+    height: 560px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  #table-menu,
+  td,
+  th {
+    border: 4px solid #b2beb5;
+    padding: 8px 12px;
+    font-family: "Marcellus", serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #696969;
+    color: white;
+  }
+  
+  #table-menu,
+  td[rowspan] {
+    vertical-align: middle;
+  }
+  
+  .input-form {
+    margin-bottom: 5px;
+    width: 270px;
+    height: 35px;
+  }
+  
+  .submit-btn {
+    margin: 5px 0px 15px 90px;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 40px;
+    background-color: #696969;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .submit-btn:hover {
+    background-color: white;
+    color: #696969;
+  }
+  
+  /* PAGE 7 */
+  #header-page7 {
+    text-align: center;
+    border: 4px, solid, #8c8b8b;
+    padding: 10px;
+    color: #696969;
+    margin-bottom: 18px;
+  }
+  
+  #header-page7 h2 {
+    width: 100%;
+    position: relative;
+    word-spacing: 10px;
+    font-size: 4.2rem;
+    line-height: 0.9;
+    padding-bottom: 10px;
+  }
+  
+  .page7-container .vl {
+    margin-left: 260px;
+    height: 450px;
+  }
+  
+  #gift-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  #gift-container article {
+    background-color: #696969;
+    color: white;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    align-content: center;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+  }
+  .scan-barcode {
+    width: 250px;
+    height: 250px;
+  }
+  #gift-container h2 {
+    font-size: 2rem;
+    font-weight: 550;
+  }
+  #gift-container #vl-short {
+    height: 450px;
+  }
+  .icon-bank {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .input-form {
+    margin-bottom: 15px;
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  
+  #page7 button {
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    color: #696969;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    font-size: 0.8rem;
+    margin-right: 10px;
+  }
+  
+  #page7 button:hover {
+    background-color: #8c8b8b;
+    color: white;
+  }
+  
+  #thankyou-page {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .adv1 {
+    font-weight: 400;
+    color: white;
+    background-color: #8c8b8b;
+    font-size: 4rem;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .adv1 img {
+    width: 170px;
+    margin: -30px;
+  }
+  .adv2 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: -20px;
+  }
+  .adv2 img {
+    width: 360px;
+    height: 185px;
+    border: 3px, solid, #696969;
+    padding: 5px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #content-invitation {
+      margin: 10px;
+      text-align: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .txt-primary {
+      font-weight: 500;
+      font-size: 1rem;
+      height: 150px;
+    }
+    .header-nav {
+      height: 50px;
+    }
+  
+    nav {
+      bottom: -4vh;
+    }
+    nav ul {
+      padding-bottom: 20px;
+      margin-left: -10px;
+    }
+    #page1 {
+      flex-direction: column;
+    }
+  
+    .bride-groom-foto {
+      width: 95%;
+      height: 250px;
+    }
+    #page2-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .vl {
+      height: 0px;
+    }
+  
+    .profile-icon {
+      width: 300px;
+      height: 300px;
+    }
+    #line-profile {
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    .parents {
+      margin-bottom: 5px;
+    }
+    #prayer-page2 {
+      padding: 10px;
+      width: 95%;
+    }
+    .page3-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .kotak-timer {
+      margin: 5px 5px 0px 0px;
+      width: 170px;
+      height: 80px;
+      padding-top: 5px;
+    }
+    #vl-short {
+      height: 0px;
+    }
+  
+    #lineee {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      border: 2px, solid, #b2beb5;
+    }
+  
+    .date-loc iframe {
+      width: 100%;
+      height: 300px;
+    }
+  
+    .container-loc {
+      flex-direction: column;
+    }
+    .loc {
+      font-size: 01rem;
+      width: 100%;
+      margin-left: 0px;
+      padding-bottom: 15px;
+      margin-top: 30px;
+    }
+  
+    #desc p {
+      text-align: center;
+      font-weight: 400;
+      font-style: normal;
+      font-family: lato, sans-serif;
+      font-size: 1rem;
+    }
+  
+    .wedding-timeline {
+      text-align: center;
+      border: 2px, solid, #8c8b8b;
+      padding: 6px;
+    }
+  
+    #line-timeline {
+      margin-left: 90px;
+      margin-right: 90px;
+      width: 0px;
+      border: 2px, solid, #8c8b8b;
+      text-align: center;
+    }
+    .top,
+    .bottom {
+      margin: 5px;
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+    }
+    video {
+      height: 300px;
+      width: 95%;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+    .our-story-vid {
+      flex-direction: column;
+    }
+    .page6-container {
+      flex-direction: column;
+    }
+  
+    #txt1-page6 {
+      font-size: 2.5rem;
+      line-height: 0.9;
+      color: white;
+      background-color: #696969;
+      width: 93%;
+      padding: 20px;
+      text-align: center;
+      border: 4px, solid, #b2beb5;
+    }
+  
+    #txt2-page6 {
+      font-size: 2.5rem;
+      color: #696969;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    textarea {
+      resize: none;
+    }
+  
+    #form-rsvp-message {
+      flex-direction: column;
+    }
+  
+    .RSVP, .message {
+      border: 3px, solid, #696969;
+      margin-top: 20px;
+      margin-right: 1%;
+      text-align: left;
+      color: #696969;
+      font-size: 1.3rem;
+      width: 400px;
+    }
+  
+    #gift-container {
+      flex-direction: column;
+    }
+  
+    #gift-container #vl-short{
+        height: 0px;
+      }
+    
+      #gift-container article {
+        margin-top: 20px;
+      }
+    
+
+    #thankyou-page {
+      flex-direction: column;
+    }
+    .adv1 {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .adv2 #line-profile{
+        margin-bottom: 40px;
+    }
+    #txt1-cover {
+        margin-top: 20px;
+        margin-bottom: 120px;
+        text-align: center;
+    }
+    #quotes {
+        margin-top: -100px;
+    }
+  }

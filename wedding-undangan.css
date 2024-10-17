@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top: 8px double #8c8b8b;
+}
+
+#hr1 {
+    border-top: 3px solid #8c8b8b;
+}
+
+#cover {
+    background-color: #F8F7F3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    display: block;
+    position: relative;
+    width: 100%;
+    max-height: 106vh;
+    overflow: hidden;
+}
+
+.date-loc-text {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title-text1 {
+    text-align: center;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-size: 75px;
+    font-style: normal;
+}
+
+.title-text2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.bride-groom {
+    filter: brightness(50%);
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.vl {
+    position: absolute;
+    margin-left: 40px;
+    top: 25%;
+    border-left: 6px solid #8c8b8b;
+    height: 500px;
+  }
+
+.bride-groom-icon {
+    width: 210px;
+    height: 210px;
+    border-radius: 150px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 3%);
+}
+
+.vl2 {
+    position: absolute;
+    left: 96%;
+    top: 25%;
+    border-left: 6px solid #8c8b8b;
+    height: 500px;
+  }
+
+.tulisan {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    color: white;
+    word-spacing: 12px;
+    font-size: 3.5rem;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tulisan1 {
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.invite {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    font-weight: 20px;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    margin-top: 10px;
+    font-size: large;
+    width: 220px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+    
+button:hover {
+    background-color: gray;
+    color: white;
+    
+}
