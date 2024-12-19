@@ -1,3 +1,27 @@
+function openInvitation() {
+    const cover = document.querySelector("#cover");
+    const content = document.querySelector("#content-invitation");
+    const musik = document.getElementById("musik");
+    const imgmusik = document.querySelector('#imgmusik');
+   
+    cover.style.opacity = "0"; 
+    setTimeout(() => {
+      cover.style.display = "none"; 
+      content.style.display = 'block';
+      setTimeout(() => {
+        content.style.opacity = '1';
+      }, 50);
+  
+      content.classList.add("active");
+      if (musik.paused) {
+        musik.play();
+        imgmusik.src = 'Assets/Images/music-on.png'; 
+      } else {
+        musik.pause();
+        imgmusik.src = 'Assets/Images/music-off.png';
+      }
+    }, 1000);
+  }
 
 //COUNTDOWM
 const countdown = () => {
@@ -64,15 +88,16 @@ function copyText() {
     });
 }
 
-function putarMusik(){
-    const music = document.querySelector('#music');
-    const imgmusic = document.querySelector('#imgmusic');
+// MUSIK
+function putarMusik() {
+     const musik=document.querySelector('#musik');
+     const imgmusik=document.querySelector('#imgmusik');
 
-    if(music.paused){
-      music.play();
-      imgmusic.src = "Assets/Images/image-sound-off";
-    } else {
-      music.pause();
-      imgmusic.src = "Assets/Images/image-sound-on";
-    }
-  }
+     if(musik.paused){
+         musik.play();
+         imgmusik.src="Assets/Images/music-on.png";
+     }else{
+         musik.pause();
+         imgmusik.src="Assets/Images/music-off.png";
+     }
+}
